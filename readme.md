@@ -13,6 +13,8 @@ The Weather App is a simple web application built using HTML, CSS, and JavaScrip
 ## How to Use
 
 1. Clone or download the repository to your local machine.
+   ```bash
+   git clone https://github.com/Michael-Moulana/Weather-Webapp.git
 2. Open the `index.html` file in a web browser.
 3. The default weather information for a predefined city (Tehran) will be displayed.
 4. To view weather information for a different city:
