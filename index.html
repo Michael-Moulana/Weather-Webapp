@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">the weather</h3>
+            <div class="weather-information">
+                <div class="weather">
+                    <img src="/icons/day/113.png" alt="icon" class="icon">
+                    <span class="condition">Cloudy</span>
+                </div>
+                <div class="temp">
+                    <p class="temp-heading">16&#176;</p>
+                </div>
+                <div class="city-time">
+                    <h2 class="name">Berlin</h2>
+                    <div class="time-date">
+                        <span class="time">06:09</span>
+                        -
+                        <span class="date">
+                            Monday Sep 19
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <form action="" id="locationInput">
+                <div class="input-box">
+                    <button type="submit" class="submit">
+                        <i class="bx bx-search" id="search-icon"></i>
+                    </button>
+                    <input type="text" class="search" placeholder="search location">
+                </div>
+            </form>
+            <ul class="cities">
+                <h4>Recently Watched</h4>
+                <li class="city">Tehran</li>
+                <li class="city">New York</li>
+                <li class="city">Paris</li>
+                <li class="city">Tokyo</li>
+            </ul>
+            <ul class="details">
+                <h4>Weather Details</h4>
+                <li>
+                    <span>Real Feel</span>
+                    <span class="realfeel">16&#176;</span>
+                </li>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">8km/h</span>
+                </li>
+                <li>
+                    <span>UV index</span>
+                    <span class="uvindex">4</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
