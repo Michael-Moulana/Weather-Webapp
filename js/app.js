@@ -18,7 +18,7 @@ const cities = document.querySelectorAll('.city')
 
 // inside chrome
 const accessKey = ""
-let cityInput = 'Gorgan'
+let cityInput = 'Tehran'
 
 cities.forEach((city) => {
     city.addEventListener('click', (e) => {
